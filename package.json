@@ -8,7 +8,8 @@
     "npm": "6.4.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,11 @@
     "prettier": "1.17.1"
   },
   "dependencies": {
-    "express": "^4.17.0"
+    "cookie-session": "^1.3.3",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.10",
+    "nodeman": "^1.1.2",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
